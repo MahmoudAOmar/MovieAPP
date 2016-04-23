@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pop"
+        android:title="Popularity"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item android:id="@+id/rate"
+        android:title="Rated"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item android:id="@+id/fav"
+        android:title="Favorits"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+</menu>
